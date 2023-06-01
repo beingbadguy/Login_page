@@ -1,0 +1,292 @@
+/* font-family: 'Aoboshi One', serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Tsukimi Rounded', sans-serif; */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    
+}
+body{
+    background-color: #F5F2EA;
+}
+
+nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_part{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.left_part i{
+    margin-right: 100px;
+    
+}
+.left_part p, button{
+    margin-right: 50px;
+} 
+
+.left_part p{
+    font-size: 12px;
+    text-align: center;
+    height: 25px;
+    width: 100px;
+    /* border: 1px solid red; */
+    font-family: 'Aoboshi One', serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.left_part p:hover{
+    background-color: #FDC886;
+    border-radius :20px;   
+}
+.left_part button{
+    cursor: pointer;
+    text-align: center;
+    height: 30px;
+    width: 130px;
+    /* border: 1px solid red; */
+    font-family: 'Aoboshi One', serif;
+    font-size: 15px;
+    background-color: #FDC886;
+    border-radius: 10px;
+    border: none;
+}
+.left_part button:hover{
+    background-color: white;
+    transition: all .4s ease;
+    /* color: #FDC886; */
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.center{
+    /* border: 1px solid red; */
+    height: 550px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: -1px 4px 77px -41px rgba(0,0,0,0.71);
+}
+.login_box{
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: center;
+
+}
+.login_box h1{
+    text-align: center;
+}
+.login_box p{
+    text-align: center;
+}
+.login_box input{
+    padding: 20px;
+    margin-top: 20px;
+    height: 5px;
+    width: 400px;
+    border-radius: 5px;
+    outline: none;
+}
+.login_box [type=text]:focus{
+    border: 2px solid #FDC886;
+    transition: all .3s ease;
+}
+form a{
+    position: relative;
+    left: -123px;
+    top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: 'Aoboshi One', serif;
+
+}
+
+form button{
+    position: relative;
+    left: 5%;
+    margin-top: 30px;
+    height: 35px;
+    width: 400px;
+    background-color: #FDC886;
+    font-family: 'Aoboshi One', serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+form button:hover{
+    border: 1px solid #FDC886;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+#sign_in{
+    margin-top: 20px;
+}
+
+
+.social{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.google{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.google:hover{
+    background-color: #FDC886;
+    transition: all .3s ease;
+}
+.google i{
+    margin-left: 15px;
+}
+.google p{
+    text-align: center;
+    margin-left: 5px;
+    font-family: 'Aoboshi One', serif;
+
+}
+
+
+.apple_id{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+}
+.apple_id:hover{
+    background-color: #FDC886;
+    transition: all .3s ease;
+}
+.apple_id i{
+    margin-left: 15px;
+}
+.apple_id p{
+    text-align: center;
+    margin-left: 5px;
+    font-family: 'Aoboshi One', serif;
+
+}
+
+.facebook{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.facebook:hover{
+    background-color: #FDC886;
+    transition: all .3s ease;
+}
+.facebook i{
+    margin-left: 15px;
+}
+.facebook p{
+    text-align: center;
+    margin-left: 5px;
+    font-family: 'Aoboshi One', serif;
+
+}
+#request{
+    color: black;
+}
+
+footer p{
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 1030px){
+    .left{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+}
+@media screen and (max-width: 640px){
+    .left_part i{
+        display: none;
+    }
+    .center{
+        height: 550px;
+        width: 300px;
+    }
+    .login_box input{
+        height: 5px;
+        width: 250px;
+    
+    }
+    form button{
+        height: 35px;
+        width: 100px;
+        
+    
+    }
+    form a{
+        position: relative;
+        left: -50px;
+    }
+    #sign_in{
+        margin-top: -3px;
+    }
+    .social{
+        display: block;
+        margin-top: 10px;
+        margin-left: 33%;
+    }
+    footer{
+        margin-top: 40px;
+    }
+    .google, .facebook, .apple_id{
+        height: 20px;
+        width: 100px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    #request{
+        margin-bottom: 10px;
+    }
+    
+}
