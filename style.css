@@ -76,7 +76,12 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
-
+.left{
+    display: contents;
+}
+.right{
+    display: contents;
+}
 .center{
     /* border: 1px solid red; */
     height: 550px;
